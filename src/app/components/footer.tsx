@@ -8,16 +8,19 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-bold mb-4">About Us</h3>
           <p className="text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam.
+            Depuis sa création en 2012,EASY-TECH SERVICES SARL est une structure
+            spécialisée dans les services personnalisés en réseau,
+            télécommunication, sécurité, système, vidéosurveillance, A l'écoute
+            constante des entreprises,particuliers et des technologies ,
+            EASY-TECH SERVICES SARL préconise des solutions innovantes et
+            apporte les compétences nécessaires à leur mise en place.
           </p>
           {/* Social Media Section */}
           <div className="px-2 py-6">
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100089144379518"
                 className="text-gray-400 hover:text-white"
                 aria-label="Facebook"
               >
@@ -72,14 +75,15 @@ export default function Footer() {
           <h3 className="text-xl font-bold mb-4">Contact Us</h3>
           <ul className="space-y-2 text-gray-400">
             <li className="flex items-center">
-              <span className="mr-2">📞</span> Phone: (123) 456-7890
+              <span className="mr-2">📞</span> Phone: (+237) 653 02 16 08 / 699
+              84 94 30
             </li>
             <li className="flex items-center">
-              <span className="mr-2">✉️</span> Email: contact@yourcompany.com
+              <span className="mr-2">✉️</span> Email: info@easy-techsarl.com
             </li>
             <li className="flex items-start">
               <span className="mr-2 mt-1">🕒</span>{" "}
-              <div>Open: Mon - Fri, 9 AM - 5 PM</div>
+              <div>Open: Mon - Fri, 8 AM - 5 PM</div>
             </li>
           </ul>
         </div>
@@ -112,7 +116,7 @@ export default function Footer() {
           <h3 className="text-xl font-bold mb-4">Our Location</h3>
           <div className="w-full h-48 rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.608474238525!2d-73.98785308459358!3d40.74844097932804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620312953248!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d845.9935909628211!2d9.696469999999993!3d4.035325999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwMDInMDcuMiJOIDnCsDQxJzQ3LjMiRQ!5e1!3m2!1sen!2sus!4v1762867351599!5m2!1sen!2sus"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -124,7 +128,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center text-gray-500 mt-8 border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} Easy tech-sal. All Rights Reserved.
+        © {new Date().getFullYear()} Easy-tech service sarl. All Rights
+        Reserved.
       </div>
     </footer>
   );

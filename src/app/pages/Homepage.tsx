@@ -5,8 +5,8 @@ import Container from "../components/container";
 
 const features = [
   {
-    title: "Fast Shipping",
-    description: "Get your orders delivered to your doorstep in no time.",
+    title: "MISE A JOUR REGULIERES",
+    description: "Nos services et equipement sont mis à jour régulièrement .",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +25,8 @@ const features = [
     ),
   },
   {
-    title: "24/7 Support",
-    description: "Our team is here to help you around the clock.",
+    title: "Assistance 24/7",
+    description: "Notre équipe est à votre disposition en permanence.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -89,14 +89,12 @@ function Homepage() {
       <div className="bg-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2
-              className="text-3xl font-extrabold text-gray-900 sm:text-4xl"
-            >
-              Our Features
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              CELA FAIT PLUS DE 13 ANS QUE NOUS ACCOMPAGNONS NOS CLIENTS
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Satsifaire notre clientelle avec des services de qualite est notre
-              priorite.
+              C'est une affirmation de longévité, de confiance et d'engagement
+              envers votre clientèle.
             </p>
             <div className="mt-10">
               <div className="stats shadow">
@@ -116,9 +114,8 @@ function Homepage() {
                       ></path>
                     </svg>
                   </div>
-                  <div className="stat-title">Total Likes</div>
-                  <div className="stat-value text-primary">25.6K</div>
-                  <div className="stat-desc">21% more than last month</div>
+                  <div className="stat-title">PROBLEM RESOLU</div>
+                  <div className="stat-value text-primary">100%</div>
                 </div>
 
                 <div className="stat">
@@ -137,9 +134,9 @@ function Homepage() {
                       ></path>
                     </svg>
                   </div>
-                  <div className="stat-title">Page Views</div>
-                  <div className="stat-value text-secondary">2.6M</div>
-                  <div className="stat-desc">21% more than last month</div>
+                  <div className="stat-title">NOS PARTENER</div>
+                  <div className="stat-value text-secondary">50</div>
+                  <div className="stat-desc">PLUS DE 50 COLABORATION </div>
                 </div>
 
                 <div className="stat">
@@ -150,11 +147,8 @@ function Homepage() {
                       </div>
                     </div>
                   </div>
-                  <div className="stat-value">86%</div>
-                  <div className="stat-title">Tasks done</div>
-                  <div className="stat-desc text-secondary">
-                    31 tasks remaining
-                  </div>
+                  <div className="stat-value">100%</div>
+                  <div className="stat-title">CLIENT/COMAPANY SATISFAIRE</div>
                 </div>
               </div>
             </div>
@@ -171,16 +165,13 @@ function Homepage() {
               Our Features
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Discover the advantages of shopping with us.
+              DÉCOUVREZ LES AVANTAGES DE TRAVAILLER AVEC NOUS.
             </p>
           </div>
 
           <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, i) => (
-              <AnimatedContainer
-                key={feature.title}
-                animationDelay={300 + i * 150}
-              >
+              <AnimatedContainer key={feature.title}>
                 <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                   {feature.icon}
                   <h3 className="mt-5 text-lg font-medium text-gray-900">
