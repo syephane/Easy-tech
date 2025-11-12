@@ -57,9 +57,9 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  href="/solution"
-                  className={isActive("/solution") ? "font-bold " : ""}
-                  aria-current={isActive("/solution") ? "page" : undefined}
+                  href="/product"
+                  className={isActive("/product") ? "font-bold " : ""}
+                  aria-current={isActive("/product") ? "page" : undefined}
                 >
                   PRODUITS
                 </Link>
@@ -100,9 +100,9 @@ function Navbar() {
             </li>
             <li>
               <Link
-                href="/solution"
-                className={isActive("/solution") ? "font-bold text-white px-3 py-1 rounded" : "text-white/90 px-3 py-1"}
-                aria-current={isActive("/solution") ? "page" : undefined}
+                href="/product"
+                className={isActive("/product") ? "font-bold text-white px-3 py-1 rounded" : "text-white/90 px-3 py-1"}
+                aria-current={isActive("/product") ? "page" : undefined}
               >
                 PRODUITS
               </Link>

@@ -2,7 +2,7 @@ import React from "react";
 import ServiceCard from "../components/ServiceCard";
 import AnimatedContainer from "../components/AnimatedContainer";
 
-export default function SolutionPage() {
+export default function PRODUCTPAGE() {
   const services = [
     {
       title: "Network & Cabling",

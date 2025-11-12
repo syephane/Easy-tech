@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Easy tech-sal",
+  title: "Easy-tech service sarl",
   description: "tech",
 };
 
