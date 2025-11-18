@@ -6,7 +6,7 @@ import Container from "../components/container";
 const features = [
   {
     title: "MISE A JOUR REGULIERES",
-    description: "Nos services et equipement sont mis à jour régulièrement .",
+    description: "Nos services et equipements sont mis à jour régulièrement .",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
