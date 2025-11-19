@@ -23,7 +23,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   )}`;
   return (
     <AnimatedContainer className="h-full" animationDelay={120}>
-      <article className="h-full bg-white rounded-2xl p-6 shadow-md flex flex-col">
+      <article className="h-full bg-sky-100 rounded-2xl p-6 shadow-md flex flex-col">
         <div className="rounded-lg overflow-hidden h-44 mb-4">
           <img src={image} alt={title} className="w-full h-full object-cover" />
         </div>
@@ -47,7 +47,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
             href={waUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-block bg-primary text-white px-4 py-2 rounded-full text-sm hover:opacity-95"
+            className="inline-block bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm hover:opacity-95"
           >
             Demander un devis
           </a>

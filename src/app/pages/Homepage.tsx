@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import AnimatedContainer from "../components/AnimatedContainer";
 import Container from "../components/container";
 
 const features = [
@@ -24,8 +23,8 @@ const features = [
       </svg>
     ),
   },
-  {
-    title: "Assistance 24/7",
+  {              
+    title: "ASSISTANCE 24/7",
     description: "Notre équipe est à votre disposition en permanence.",
     icon: (
       <svg
@@ -45,8 +44,9 @@ const features = [
     ),
   },
   {
-    title: "Secure Payments",
-    description: "Shop with confidence using our secure payment methods.",
+    title: "SÉCURITÉ DE VOTRE RÉSEAU",
+    description:
+      "Nous Garantissons la confidentialité et l'intégrité de vos données critiques.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -172,46 +172,46 @@ function Homepage() {
 
           <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, i) => (
-              <AnimatedContainer key={feature.title}>
-                <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                  {feature.icon}
-                  <h3 className="mt-5 text-lg font-medium text-gray-900">
-                    {feature.title}
-                  </h3>
-                  <p className="mt-2 text-base text-gray-500">
-                    {feature.description}
-                  </p>
-                </div>
-              </AnimatedContainer>
+              <div
+                key={feature.title}
+                className="bg-white p-6 rounded-lg shadow-lg text-center"
+              >
+                {feature.icon}
+                <h3 className="mt-5 text-lg font-medium text-gray-900">
+                  {feature.title}
+                </h3>
+                <p className="mt-2 text-base text-gray-500">
+                  {feature.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>
       </div>
-      <div className="bg-white py-12">
+      <div className="bg-sky-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedContainer>
-            <div className="text-center">
-              <h2
-                id="about-us-section"
-                className="text-3xl font-extrabold text-gray-900 sm:text-4xl"
-              >
-                Our Partners
-              </h2>
-              <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                {aboutImages.map((src, i) => (
-                  <AnimatedContainer key={i} animationDelay={100 + i * 50}>
-                    <div className="bg-gray-200 h-32 w-full rounded-lg overflow-hidden">
-                      <img
-                        src={src}
-                        alt={`About us image ${i + 1}`}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </AnimatedContainer>
-                ))}
-              </div>
+          <div className="text-center">
+            <h2
+              id="about-us-section"
+              className="text-3xl font-extrabold text-gray-900 sm:text-4xl"
+            >
+              Our Partners
+            </h2>
+            <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+              {aboutImages.map((src, i) => (
+                <div
+                  key={i}
+                  className="bg-gray-200 h-32 w-full rounded-lg overflow-hidden"
+                >
+                  <img
+                    src={src}
+                    alt={`About us image ${i + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
             </div>
-          </AnimatedContainer>
+          </div>
         </div>
       </div>
     </div>

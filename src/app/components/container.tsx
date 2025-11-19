@@ -10,48 +10,53 @@ function Container() {
             OUR SERVICES
           </h1>
         </AnimatedContainer>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {[
             {
-              title: "Classic Fedora",
-              description: "A timeless piece for any occasion.",
+              title: "INTERNET SERVICE PROVIDER",
+              description:
+                "Fourniture de connexions Internet haut débit, fiables et souvent symétriques , essentielles pour les entreprises qui dépendent d'une performance constante.",
               images: ["/images/wallpaper.png"],
-              href: "/classic-fedora",
+              href: "/ISP",
             },
             {
-              title: "Summer Straw Hat",
-              description: "Stay cool and stylish in the sun.",
-              images: ["/images/ip_phone.jpg"],
-              href: "/summer-straw-hat",
+              title: "TELEPHONE SUR IP",
+              description:
+                "La Téléphonie sur IP est la technologie qui permet de faire passer les communications vocales par le réseau Internet de l'entreprise, plutôt que par le réseau téléphonique traditionnel (RTC)",
+              images: ["/images/telephone.png"],
+              href: "/TSI",
             },
             {
-              title: "Cozy Beanie",
-              description: "Perfect for chilly weather.",
-              images: ["/images/video.jpg"],
-              href: "/cozy-beanie",
+              title: "VIDEO SURVEILLANCE",
+              description:
+                "EASY-TECH propose différents types d'appareils de télésurveillance et aussi de nombreuse formules de télésurveillance.Nous vous permettons de garder toujours un regard sur votre activités et vos locaux.",
+              images: ["/images/camera.png"],
+              href: "/VS",
             },
             {
-              title: "Stylish Beret",
-              description: "Add a touch of Parisian chic.",
+              title: "SECURITE INFORMATIQUE",
+              description:
+                "Surveillance et Protection 24/7. Intégration de solutions de vidéosurveillance IP intelligentes (CCTV), et sécurisation de votre réseau (pare-feu, antivirus) pour prévenir les intrusions physiques et numériques.",
               images: ["/images/securite.jpg"],
-              href: "/stylish-beret",
+              href: "/sECURITE",
             },
             {
-              title: "Baseball Cap",
-              description: "Casual and comfortable for everyday wear.",
+              title: "ENERGY RENOUVELABLES",
+              description:
+                "Solutions d'Énergie Solaire. Mise en place de systèmes de back-up ou d'alimentation solaire autonomes pour garantir que vos serveurs et équipements réseau restent opérationnels, même en cas de coupure du réseau principal.",
               images: ["/images/energy.jpg"],
-              href: "/baseball-cap",
+              href: "/EN",
             },
             {
-              title: "Elegant Top Hat",
-              description: "For those very special events.",
+              title: "LA DOMOTIQUE",
+              description: "Installation de systèmes domotiques pour le contrôle intelligent de l'éclairage, du climat (climatisation), des accès (serrures connectées) et des systèmes audiovisuels, pour les bureaux ou les résidences de luxe.",
               images: ["images/domotique.jpg"],
-              href: "/elegant-top-hat",
+              href: "/DOMOTIQUE",
             },
           ].map((card, i) => (
             <div
               key={i}
-              className="bg-white p-6 rounded-xl shadow-lg w-full text-center"
+              className="bg-sky-100 p-6 rounded-xl shadow-lg w-full text-center"
             >
               <AnimatedContainer animationDelay={100 + i * 100}>
                 <svg
@@ -79,7 +84,7 @@ function Container() {
                 </figure>
               </AnimatedContainer>
               <AnimatedContainer animationDelay={500 + i * 100}>
-                <div className="mt-9">
+                <div className="mt-5">
                   <Link href={card.href}>
                     <h2 className="text-lg font-bold text-gray-800">
                       {card.title}

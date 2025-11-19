@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Global subtle blue background to avoid clashing with page colors. */
+html,
+body {
+  /* A very light, unobtrusive blue */
+  background-color: #328bc7;
+}
+
+/* Ensure the Next root container fills height so background is visible on short pages */
+#__next {
+  min-height: 100vh;
+}
