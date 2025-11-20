@@ -35,8 +35,9 @@ function Container() {
             },
             {
               title: "SECURITE INFORMATIQUE",
+
               description:
-                "Surveillance et Protection 24/7. Intégration de solutions de vidéosurveillance IP intelligentes (CCTV), et sécurisation de votre réseau (pare-feu, antivirus) pour prévenir les intrusions physiques et numériques.",
+                "Sécurisation de votre réseau (pare-feu, antivirus et anti-ransomware) pour prévenir les intrusions numériques et le cryptage de vos données",
               images: ["/images/securite.jpg"],
               href: "/sECURITE",
             },
@@ -49,7 +50,8 @@ function Container() {
             },
             {
               title: "LA DOMOTIQUE",
-              description: "Installation de systèmes domotiques pour le contrôle intelligent de l'éclairage, du climat (climatisation), des accès (serrures connectées) et des systèmes audiovisuels, pour les bureaux ou les résidences de luxe.",
+              description:
+                "Installation de systèmes domotiques pour le contrôle intelligent de l'éclairage, du climat (climatisation), des accès (serrures connectées) et des systèmes audiovisuels, pour les bureaux ou les résidences de luxe.",
               images: ["images/domotique.jpg"],
               href: "/DOMOTIQUE",
             },

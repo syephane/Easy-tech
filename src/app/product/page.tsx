@@ -5,36 +5,37 @@ import AnimatedContainer from "../components/AnimatedContainer";
 export default function PRODUCTPAGE() {
   const services = [
     {
-      title: "Network & Cabling",
+      title: "INTERNET SERVICE PROVIDER",
       description:
-        "Conception et installation de câblage structuré, LAN/WAN et fibre optique pour une connectivité fiable.",
+        "Fourniture de connexions Internet haut débit, fiables et souvent symétriques , essentielles pour les entreprises qui dépendent d'une performance constante",
       image: "/images/cablage_structure_reseaux_2019.jpg",
       bullets: [
-        "Câblage structuré (Cat6/Cat6a)",
-        "Liaisons fibre et terminaison",
-        "Audits réseau",
+        "Débit Symétrique : Vitesse d'envoi égale à la vitesse de réception.",
+        "Haute Disponibilité : Connexion stable conçue pour un usage intensif.",
+        "Usage Pro : Optimisé pour le transfert de données critiques et la continuité d'activité.",
       ],
     },
     {
-      title: "Security & CCTV",
+      title: "SECURITE INFORMATIQUE",
       description:
-        "Systèmes de vidéosurveillance, alarmes anti-intrusion et contrôle d'accès pour sécuriser les locaux.",
+        "Sécurisation de votre réseau (pare-feu, antivirus et anti-ransomware) pour prévenir les intrusions numériques et le cryptage de vos données",
       image: "/images/securite.jpg",
       bullets: [
-        "Caméras IP et NVR",
-        "Surveillance à distance",
-        "Intégration d'alarmes",
+        "AudiProtection Périmétrique : Installation de pare-feux pour filtrer les entrées/sorties.t et Sécurisation :Analyse de vos vulnérabilités et renforcement du réseau.",
+        "Protection Périmétrique : Installation de pare-feux pour filtrer les entrées/sorties.",
+        "Lutte Anti-Virus : Déploiement de solutions robustes pour prévenir les intrusions numériques.",
+        "Intégrité des Données : Protection contre le vol et la corruption de fichiers.",
       ],
     },
     {
-      title: "Telephony & VoIP",
+      title: "Telephony IP",
       description:
         "Solutions VoIP professionnelles et systèmes téléphoniques IP pour les entreprises de toutes tailles.",
       image: "/images/ip_phone.jpg",
       bullets: [
-        "Configuration de PBX",
-        "Trunking SIP",
-        "Communications unifiées",
+        "Infrastructure unifiée : Plus besoin de câblage téléphonique dédié. Vos téléphones se branchent directement sur le réseau Internet de l'entreprise.",
+        "Qualité HD : Une clarté de voix supérieure pour vos échanges professionnels.",
+        "Fonctionnalités avancées : Profitez de services modernes (Standard automatique, messagerie vers email, conférence) souvent inaccessibles ou coûteux sur le réseau RTC classique.",
       ],
     },
     {
@@ -43,9 +44,9 @@ export default function PRODUCTPAGE() {
         "Domotique et automatisation du bâtiment : éclairage, climatisation et solutions de contrôle à distance.",
       image: "/images/domotique.jpg",
       bullets: [
-        "Automatisation de l'éclairage",
-        "Gestion énergétique",
-        "Applications de contrôle à distance",
+        "Gestion de l'Éclairage : Installation de détecteurs de présence et de variateurs. Ne laissez plus jamais les lumières allumées inutilement dans les bureaux vides.",
+        "Contrôle Total à Distance : Une application unique sur votre tablette ou smartphone pour tout gérer (volets, lumières, clim), que vous soyez dans votre canapé ou à l'autre bout du monde.",
+        "Éclairage Intelligent : Créez des scénarios d'ambiance et éteignez tout en un clic.",
       ],
     },
     {
@@ -54,9 +55,10 @@ export default function PRODUCTPAGE() {
         "Optimisation énergétique et intégrations d'énergies renouvelables pour réduire les coûts d'exploitation.",
       image: "/images/energy.jpg",
       bullets: [
-        "Audits énergétiques",
-        "Intégration solaire",
-        "Systèmes de secours par batterie",
+        "Solutions de Back-up (Secours) : Installation d'onduleurs et de parcs de batteries pour assurer le maintien opérationnel de vos serveurs, routeurs et caméras lors des coupures du réseau public",
+        "Centrales Solaires Autonomes : Dimensionnement et pose de panneaux photovoltaïques pour alimenter vos équipements de jour comme de nuit, réduisant votre dépendance au réseau local.",
+        "Systèmes Hybrides : Gestion intelligente entre le solaire, les batteries et le réseau électrique.",
+        "Continuité d'Activité : Vos serveurs et votre connexion Internet restent allumés, même sans courant secteur.",
       ],
     },
     {
