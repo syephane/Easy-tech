@@ -21,7 +21,7 @@ export default function AboutPage() {
           <h1 className="text-3xl font-bold text-gray-800">
             Directeur Général
           </h1>
-          <h2 className="text-xl text-primary/90 mt-2">Director Name</h2>
+          <h2 className="text-xl text-primary/90 mt-2">MR KWAGNOU GEORGES</h2>
           <p className="mt-4 text-gray-600 leading-relaxed">
             EASY-TECH Service SARL est dirigée par un directeur expérimenté qui
             s'engage à fournir des solutions de haute qualité dans les domaines
@@ -30,9 +30,6 @@ export default function AboutPage() {
             pratique et concrète à la gestion de projet, au support client et à
             la stratégie technologique.
           </p>
-          <p className="mt-3 text-gray-600">
-            Contact: (+237) 653 02 16 08 / 699 84 94 30 — info@easy-techsarl.com
-          </p>
         </div>
       </section>
 
@@ -40,13 +37,13 @@ export default function AboutPage() {
         <div className="flex items-center justify-between mt-6">
           <div>
             <h3 className="text-2xl font-semibold text-gray-800">Our Team</h3>
-            <p className="text-gray-600 mt-3">
+            <p className="text-grey-600 mt-4">
               Meet the people behind Easy-Tech
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid mt-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <TeamMember
             name="Alice Mbarga"
             role="Network Engineer"
@@ -80,6 +77,28 @@ export default function AboutPage() {
 
           {/* Add more TeamMember entries as needed */}
         </div>
+      </section>
+
+      <section
+        id="contact"
+        className="mt-12 bg-white rounded-2xl p-8 shadow-md"
+      >
+        <h3 className="text-2xl font-semibold text-gray-800">ABOUT US</h3>
+        <p className="text-gray-600 mt-2">
+          Depuis sa création en 2012,EASY-TECH SERVICES SARL est une structure
+          spécialisée dans les services personnalisés en réseau,
+          télécommunication, sécurité, système, vidéosurveillance, A l'écoute
+          constante des entreprises,particuliers et des technologies , EASY-TECH
+          SERVICES SARL préconise des solutions innovantes et apporte les
+          compétences nécessaires à leur mise en place.
+        </p>
+        <p className="text-gray-600 mt-2">
+          EASY-TECH s'engage à vous fournir une technologie de pointe (VoIP,
+          Domotique, Vidéosurveillance IP) soutenue par un service client
+          réactif. Nous sommes votre partenaire technique pour un avenir où vos
+          systèmes sont toujours sécurisés, toujours alimentés et toujours
+          opérationnels.
+        </p>
       </section>
     </main>
   );

@@ -23,7 +23,7 @@ const features = [
       </svg>
     ),
   },
-  {              
+  {
     title: "ASSISTANCE 24/7",
     description: "Notre équipe est à votre disposition en permanence.",
     icon: (
@@ -67,18 +67,15 @@ const features = [
 ];
 
 const aboutImages = [
-  "/images/about-1.jpg",
-  "/images/about-2.jpg",
-  "/images/about-3.jpg",
-  "/images/about-4.jpg",
-  "/images/about-5.jpg",
-  "/images/about-6.jpg",
-  "/images/about-7.jpg",
-  "/images/about-8.jpg",
-  "/images/about-9.jpg",
-  "/images/about-10.jpg",
-  "/images/about-11.jpg",
-  "/images/about-12.jpg",
+  "/images/migec.jpeg",
+  "/images/delta.jpeg",
+  "/images/Credit-Populaire.jpg",
+  "/images/figec.png",
+  "/images/alubassa.png",
+  "/images/sofina.jpeg",
+  "/images/optimum.png",
+  "/images/olam.png",
+  "/images/mupeci.png",
 ];
 
 function Homepage() {
@@ -135,17 +132,17 @@ function Homepage() {
                       ></path>
                     </svg>
                   </div>
-                  <div className="stat-title">NOS PARTENER</div>
+                  <div className="stat-title">NOS INSTALLATION</div>
                   <div className="stat-value text-secondary">50</div>
-                  <div className="stat-desc">PLUS DE 50 COLABORATION </div>
+                  <div className="stat-desc">PLUS DE 60 INTERVATION </div>
                 </div>
 
                 <div className="stat">
                   <div className="stat-figure text-secondary">
                     <div className="avatar avatar-online">
-                      <div className="w-16 rounded-full">
+                      {/* <div className="w-16 rounded-full">
                         <img src="https://img.daisyui.com/images/profile/demo/anakeen@192.webp" />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="stat-value">100%</div>
@@ -201,12 +198,12 @@ function Homepage() {
               {aboutImages.map((src, i) => (
                 <div
                   key={i}
-                  className="bg-gray-200 h-32 w-full rounded-lg overflow-hidden"
+                  className="bg-gray-200 h-32 w-full rounded-lg overflow-hidden flex items-center justify-center"
                 >
                   <img
                     src={src}
                     alt={`About us image ${i + 1}`}
-                    className="w-full h-full object-cover"
+                    className="max-w-full max-h-full object-contain"
                   />
                 </div>
               ))}

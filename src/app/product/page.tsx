@@ -62,14 +62,14 @@ export default function PRODUCTPAGE() {
       ],
     },
     {
-      title: "Audio/Video & Multimedia",
+      title: "VIDEO SURVEILLANCE",
       description:
-        "Salles de conférence, systèmes PA et installations multimédia pour espaces professionnels.",
+        "EASY-TECH propose différents types d'appareils de télésurveillance et aussi de nombreuse formules de télésurveillance.Nous vous permettons de garder toujours un regard sur votre activités et vos locaux.",
       image: "/images/video.jpg",
       bullets: [
-        "Installation de salles de conférence",
-        "Projecteurs et écrans",
-        "Systèmes de sonorisation (PA)",
+        "Formules d'Accès : Nous vous permettons de garder toujours un regard sur votre activités et vos locaux grâce à de nombreuses formules de télésurveillance, incluant l'accès à distance sécurisé et la consultation des historiques.",
+        "Consultation et Matériel : Nous proposons différents types d'appareils de télésurveillance (caméras IP intelligentes) sélectionnés pour leur fiabilité et leur qualité d'image (HD/4K).",
+        "Stockage sécurisé : Enregistreurs numériques (NVR) avec sauvegarde optimisée.",
       ],
     },
   ];
@@ -122,32 +122,7 @@ export default function PRODUCTPAGE() {
         </div>
       </section>
 
-      <section
-        id="contact"
-        className="mt-12 bg-white rounded-2xl p-8 shadow-md"
-      >
-        <h3 className="text-2xl font-semibold text-gray-800">Contactez-nous</h3>
-        <p className="text-gray-600 mt-2">
-          Parlez-nous de votre projet et nous préparerons un devis sur mesure.
-        </p>
-
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="p-4 border rounded-lg">
-            <h4 className="font-semibold">Téléphone</h4>
-            <p className="text-gray-600 mt-1">
-              (+237) 653 02 16 08 / 699 84 94 30
-            </p>
-          </div>
-          <div className="p-4 border rounded-lg">
-            <h4 className="font-semibold">Courriel</h4>
-            <p className="text-gray-600 mt-1">info@easy-techsarl.com</p>
-          </div>
-          <div className="p-4 border rounded-lg">
-            <h4 className="font-semibold">Bureau</h4>
-            <p className="text-gray-600 mt-1">Douala, Cameroun</p>
-          </div>
-        </div>
-      </section>
+     
     </main>
   );
 }
