@@ -55,6 +55,13 @@ function Container() {
               images: ["images/domotique.jpg"],
               href: "/DOMOTIQUE",
             },
+            {
+              title: "INTERCONNEXION",
+              description:
+                "Optimisez la collaboration au sein de votre entreprise grâce à une infrastructure réseau unifiée. Que ce soit pour relier vos agences (VPN/ MPLS) ou interconnecter vos applications critiques, nous garantissons une transmission de données fluide, rapide et hautement sécurisée pour une continuité de service absolue. ",
+              images: ["images/interconnection.png"],
+              href: "/interconnetion",
+            },
           ].map((card, i) => (
             <div
               key={i}

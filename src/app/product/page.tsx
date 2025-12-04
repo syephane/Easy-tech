@@ -16,6 +16,17 @@ export default function PRODUCTPAGE() {
       ],
     },
     {
+      title: "INTERCONNEXION",
+      description:
+        "Fourniture de connexions Internet haut débit, fiables et souvent symétriques , essentielles pour les entreprises qui dépendent d'une performance constante",
+      image: "/images/cablage_structure_reseaux_2019.jpg",
+      bullets: [
+        "Débit Symétrique : Vitesse d'envoi égale à la vitesse de réception.",
+        "Haute Disponibilité : Connexion stable conçue pour un usage intensif.",
+        "Usage Pro : Optimisé pour le transfert de données critiques et la continuité d'activité.",
+      ],
+    },
+    {
       title: "SECURITE INFORMATIQUE",
       description:
         "Sécurisation de votre réseau (pare-feu, antivirus et anti-ransomware) pour prévenir les intrusions numériques et le cryptage de vos données",
