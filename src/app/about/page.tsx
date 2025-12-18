@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
 import TeamMember from "../components/TeamMember";
@@ -38,7 +40,7 @@ export default function AboutPage() {
           <div>
             <h3 className="text-2xl font-semibold text-gray-800">Our Team</h3>
             <p className="text-grey-600 mt-4">
-              Meet the people behind Easy-Tech
+                Notre team Easy-Tech
             </p>
           </div>
         </div>

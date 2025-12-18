@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import React from "react";
 import Container from "../components/container";
@@ -68,14 +71,15 @@ const features = [
 
 const aboutImages = [
   "/images/migec.jpeg",
-  "/images/delta.jpeg",
+  "/images/cepac.jpeg",
   "/images/Credit-Populaire.jpg",
-  "/images/figec.png",
-  "/images/alubassa.png",
+  "/images/finec.jpeg",
+  "/images/cefa.png",
   "/images/sofina.jpeg",
-  "/images/optimum.png",
-  "/images/olam.png",
+  "/images/cresaf.jpeg",
+  "/images/capfinance.jpeg",
   "/images/mupeci.png",
+  "/images/falamoney.png",
 ];
 
 function Homepage() {
